@@ -1,6 +1,8 @@
----
-layout: "base.njk"
----
+<?php
+
+$page_content = function()
+{
+?>
 
 <div class="w3-col s3 w3-show-small w3-hide-medium w3-hide-large">&nbsp;</div>
                 
@@ -24,3 +26,8 @@ layout: "base.njk"
         email_address.innerHTML = '<a href="mailto:contact' + '@' + 'taramckale' + '.' + 'ict' + '.' + 'rocks" target="_blank" class="w3-button w3-sand w3-hover-none w3-text-pink w3-hover-text-pink"><b>contact' + '@' + 'taramckale' + '.' + 'ict' + '.' + 'rocks</b></a>';
     </script>
 </div>
+
+<?php
+};
+
+include __DIR__ . DIRECTORY_SEPARATOR . "_includes" . DIRECTORY_SEPARATOR . "base.php";

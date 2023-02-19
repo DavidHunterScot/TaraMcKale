@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>{% if title %}{{ title }} - {% endif %}Tara McKale</title>
+        <title><?php if( isset( $page_title ) && $page_title ) echo $page_title . " - "; ?>Tara McKale</title>
         <link rel="stylesheet" type="text/css" href="https://w3css.staticly.ict.rocks/4.15/w3.css">
     </head>
     <body class="w3-sand">
@@ -24,7 +24,7 @@
 
         <section class="w3-padding-64">
             <div class="w3-content w3-row">
-                {{ content | safe }}
+                <?php if( isset( $page_content ) && is_callable( $page_content ) ) $page_content(); ?>
             </div>
         </section>
 
