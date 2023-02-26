@@ -33,5 +33,7 @@
                 <p style="color: #aaa">Tara McKale is a ficticious character originally created as a promotional mascot for Persona Clix.</p>
             </div>
         </footer>
+
+        <script type="text/javascript" src="/assets/js/anti-email-harvesting.js"></script>
     </body>
 </html>
