@@ -18,12 +18,12 @@ $page_content = function()
     <h2 class="w3-xxlarge w3-text-pink"><b>Contact Me</b></h2>
     <p>Send me an email anytime. I read them all.</p>
 
-    <p id="email_address"><b class="w3-padding w3-text-pink">contact [at] taramckale [dot] ict [dot] rocks</b></p>
+    <p id="email_address"><b class="w3-padding w3-text-pink">tara [dot] mckale [at] themailbox [dot] io</b></p>
 
     <script>
         var email_address = document.getElementById( 'email_address' );
 
-        email_address.innerHTML = '<a href="mailto:contact' + '@' + 'taramckale' + '.' + 'ict' + '.' + 'rocks" target="_blank" class="w3-button w3-sand w3-hover-none w3-text-pink w3-hover-text-pink"><b>contact' + '@' + 'taramckale' + '.' + 'ict' + '.' + 'rocks</b></a>';
+        email_address.innerHTML = '<a href="mailto:tara' + '.' + 'mckale' + '@' + 'themailbox' + '.' + 'io" target="_blank" class="w3-button w3-sand w3-hover-none w3-text-pink w3-hover-text-pink"><b>tara' + '.' + 'mckale' + '@' + 'themailbox' + '.' + 'io</b></a>';
     </script>
 </div>
 
