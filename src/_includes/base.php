@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title><?php if( isset( $page_title ) && $page_title ) echo $page_title . " - "; ?>Tara McKale</title>
-        <link rel="stylesheet" type="text/css" href="https://w3css.staticly.ict.rocks/4.15/w3.css">
+        <link rel="stylesheet" type="text/css" href="/assets/w3css/4.15/w3.css">
     </head>
     <body class="w3-sand">
         <header class="w3-white">

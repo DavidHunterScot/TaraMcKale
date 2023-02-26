@@ -7,7 +7,7 @@ $page_content = function()
 <div class="w3-col s3 w3-show-small w3-hide-medium w3-hide-large">&nbsp;</div>
                 
 <div class="w3-center w3-padding w3-col s6 m5 l4">
-    <img src="https://images.staticly.ict.rocks/avatars/taramckale_original_400x600.jpg" class="w3-image w3-round-xlarge w3-topbar w3-rightbar w3-bottombar w3-leftbar w3-border-pink" alt="Tara McKale Photo">
+    <img src="/assets/images/avatars/taramckale_original_400x600.jpg" class="w3-image w3-round-xlarge w3-topbar w3-rightbar w3-bottombar w3-leftbar w3-border-pink" alt="Tara McKale Photo">
 </div>
 
 <div class="w3-padding-large w3-col m7 l8">
