@@ -1,11 +1,18 @@
+---
+content_placeholder: {{ content }}
+images_url: https://images.storage.ict.rocks
+w3css_url: https://w3css.staticly.ict.rocks
+---
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title><?php if( isset( $page_title ) && $page_title ) echo $page_title . " - "; ?>Tara McKale</title>
-        <link rel="stylesheet" type="text/css" href="/assets/w3css/4.15/w3.css">
+        
+        <title><?php if( isset( $metadata['page_title'] ) && $metadata['page_title'] ) echo $metadata['page_title'] . " - "; ?>Tara McKale</title>
+        
+        <link rel="stylesheet" type="text/css" href="--- metadata.w3css_url ---/4.15/w3.css">
     </head>
     <body class="w3-sand">
         <header class="w3-white">
@@ -24,7 +31,7 @@
 
         <section class="w3-padding-64">
             <div class="w3-content w3-row">
-                <?php if( isset( $page_content ) && is_callable( $page_content ) ) $page_content(); ?>
+                {{ content }}
             </div>
         </section>
 
