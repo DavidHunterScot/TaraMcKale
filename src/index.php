@@ -18,7 +18,7 @@ $page_content = function()
     <h2 class="w3-xxlarge w3-text-pink"><b>Contact Me</b></h2>
     <p>Send me an email anytime. I read them all.</p>
 
-    <p><b class="w3-text-pink email_address" link-class="w3-button w3-sand w3-hover-none w3-text-pink w3-hover-text-pink">tara [dot] mckale [at] themailbox [dot] io</b></p>
+    <p><b class="w3-text-pink email_address" link-class="w3-button w3-sand w3-hover-none w3-text-pink w3-hover-text-pink">tara [dot] mckale [at] mailbox [dot] ict [dot] rocks</b></p>
 </div>
 
 <?php
